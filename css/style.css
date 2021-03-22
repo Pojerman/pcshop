@@ -1,0 +1,270 @@
+body {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: 0;
+}    
+
+.header {
+    width: 1110px;
+    padding: 50px 0 0 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 210px 0;
+}
+
+.nav-link {
+    margin: 0 30px 0 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 22px;
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+.header__txt {
+    justify-content: center;
+    margin: 0;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.header__txt::after {
+    content: "";
+    display: block;
+    margin: 165px 0 0 0;
+    width: 1110px;
+    height: 3px;
+    background-color: #FFFFFF;
+}
+
+.content {
+    width: 1110px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.computers {
+    padding: 50px 0 0 0;
+}
+
+.computers::after {
+    content: "";
+    display: block;
+    margin: 65px 0 0 0;
+    width: 1110px;
+    height: 3px;
+    background-color: #FFFFFF;
+}
+
+.computers__title {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.computer {
+    display: flex;
+    margin: 30px 0 0 30px;
+}
+
+.computer__about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.computer__about::after {
+    content: "";
+    display: block;
+    margin: 25px 0 0 170px;
+    width: 127px;
+    height: 3px;
+    background-color: #FFFFFF;
+}
+
+.pc4::after {
+    display: none;
+    margin: 0;
+}
+
+.computer__name {
+    margin: 0 0 10px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.computer__txt {
+    margin: 0 0 10px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.computer__list {
+   padding: 0;
+   margin: 0;
+}
+
+.computer__property {
+    margin: 0 0 10px 0;
+    list-style-type: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.hd {
+    margin: 0 0 5px 0;
+}
+
+.computer__button {
+    max-width: 193px;
+    border-radius: 10px;
+    padding: 6px 40px;
+    margin-left: 565px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    background-color: gray;
+    color: #FFFFFF;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.computer__button:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.computer__button:active {
+    background-color: gray;
+    color: #FFFFFF;
+}
+
+.about__title {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.about__txt {
+    margin: 0 auto;
+    width: 950px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.about::after {
+    content: "";
+    display: block;
+    margin: 50px 0 0 0; 
+    width: 1110px;
+    height: 3px;
+    background-color: #FFFFFF;
+}
+
+.foot {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.contacts {
+    padding: 30px 0 30px 0;
+}
+
+.contacts__title {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+
+.contacts__txt {
+    width: 415px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.contacts__list {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.contacts__li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.contacts__link {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.contacts__link:hover {
+    color: grey;
+}
